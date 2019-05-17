@@ -1,60 +1,76 @@
-$kalam: 'Kalam', cursive;
-
-*{
-	font-family:$kalam;
+$kalam: 'Kalam',
+cursive;
+* {
+    font-family: $kalam;
 }
 
-.carousel{
-	.carousel-caption{
-	    background: rgba(255,255,255,.5);
-	    border-radius: 10px;
-	}
-
+.carousel {
+    .carousel-caption {
+        background: rgba(255, 255, 255, .5);
+        border-radius: 10px;
+    }
 }
 
-.card{
-	.card-body{
-		min-height:395px;
-		flex-direction: column;
-	    justify-content: space-between;
-	    display: flex;
-	    flex-wrap: nowrap;
-	}
-}
-hr.hr-color-tittle{
-	border:100%;
-	border-color:rgba(82, 167, 12, 0.911);
-}
-h1.display-4{
-	font-size: 4vw;
-}
-div.content-adoption{
-	background: url("../img/lomitobg.jpeg") ;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	form {
-		width: 80%;
-	}
+.card {
+    .card-body {
+        min-height: 395px;
+        flex-direction: column;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: nowrap;
+    }
 }
 
-
-div.dasboard-bg{
-	background: rgba(2, 21, 49, 0.795);
+hr.hr-color-tittle {
+    border: 100%;
+    border-color: rgba(82, 167, 12, 0.911);
 }
 
-div.content-register{
-	background: url("../img/bunnybg.jpg") ;
-	height: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	form {
-		width: 80%;
-		
-	}
+h1.display-4 {
+    font-size: 4vw;
+}
 
+div.content-adoption {
+    background: url("../img/lomitobg.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    form {
+        width: 80%;
+    }
+}
+
+footer {
+    background-color: black;
+    color: bisque;
+}
+
+div.dasboard-bg {
+    background: rgba(2, 21, 49, 0.795);
+}
+
+div.content-register {
+    background: url("../img/bunnybg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    form {
+        width: 80%;
+    }
+}
+
+div.content-adopt {
+    background: url("../img/bunnybg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    form {
+        width: 80%;
+    }
 }

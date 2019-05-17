@@ -1,67 +1,103 @@
 <div class="content-register p-5 m-auto">
-        
- 
+
     <h1 class="display-4 m-auto text-center">REGISTRO</h1>
-  
-    
-    <form class="m-auto border-right border-bottom p-3">
-        <div class="form-group">
-          <label for="nameUser">Nombre de Usuario</label>
-          <input type="text" class="form-control" id="nameUser" placeholder="Nombre de usuario">
+
+    <form class="font-weight-bold m-auto border-right border-bottom p-3">
+        <!--formulario-->
+
+        <div class="form-row">
+            <!-- nombre de usuario -->
+            <div class="form-group col-md-4">
+                <label for="nameUser">Nombre</label>
+                <input type="text" class="form-control" id="nameUser" placeholder="Nombre de usuario">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="lastnameP">Apellido Paterno</label>
+                <input type="text" class="form-control" id="lastnameP" placeholder="Nombre de usuario">
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="lastnameM">Apellido Materno</label>
+                <input type="text" class="form-control" id="lastnameM" placeholder="Nombre de usuario">
+            </div>
         </div>
         <div class="form-row">
+            <!-- email y password -->
             <div class="form-group col-md-6">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="Email">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Email">
             </div>
             <div class="form-group col-md-6">
-              <label for="password">Password</label>
-              <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
             </div>
         </div>
         <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="Remail">Repita Email</label>
-                  <input type="email" class="form-control" id="Remail" placeholder="Email">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="Rpassword">Repita Password</label>
-                  <input type="password" class="form-control" id="Rpassword" placeholder="Password">
-                </div>
+            <!-- verificacion de  email y password-->
+            <div class="form-group col-md-6">
+                <label for="Remail">Verifique Email</label>
+                <input type="email" class="form-control" id="Remail" placeholder="Email">
             </div>
-        <div class="form-group">
-                  <label for="inputAddress">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="form-group">
-                  <label for="inputAddress2">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            <div class="form-group col-md-6">
+                <label for="Rpassword">Verifique Password</label>
+                <input type="password" class="form-control" id="Rpassword" placeholder="Password">
+            </div>
         </div>
         <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                  </div>
+            <!-- telefono y fecha de nacimiento -->
+            <div class="form-group col-md-6">
+                <label for="phoneNumber">Numero Telefonico</label>
+                <input type="number" class="form-control" id="phoneNumber" placeholder="Numero Telefonico">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="dateBornUsr">Fecha de Nacimiento</label>
+                <input type="date" class="form-control" id="dateBornUsr">
+            </div>
         </div>
-        <div class="form-group">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
+        <br> Direccion
+        <hr>
+        <div class="form-row">
+            <!-- calle y colonia -->
+            <div class="form-group col-md-6">
+                <label for="street">Calle</label>
+                <input type="text" class="form-control" id="street" placeholder="calle">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="suburb">Colonia</label>
+                <input type="text" class="form-control" id="suburb" placeholder="Colonia">
+            </div>
         </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="form-row">
+            <!-- numeros y municipio -->
+            <div class="form-group col-md-3">
+                <label for="numberExt">Numero Exterior</label>
+                <input type="text" class="form-control" id="numberExt" placeholder="Numero Exterior">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="numberInt">Numero Interior*</label>
+                <input type="text" class="form-control" id="numberInt" placeholder="Numero Interior*">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="borough">Municipio</label>
+                <input type="text" class="form-control" id="borough" placeholder="Municipio">
+            </div>
+        </div>
+        <div class="form-row">
+            <!-- estado y CP -->
+            <div class="form-group col-md-6">
+                <label for="state">Estado</label>
+                <input type="text" class="form-control" id="state" placeholder="Estado">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="codeZip">Codigo Postal</label>
+                <input type="text" class="form-control" id="codeZip" placeholder="Codigo Postal">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <!-- <div class="col-md-3"></div> -->
+            <button type="submit" id="btnRegister" class="btn btn-primary col-md-12  mt-3">REGISTRARSE</button>
+            <!-- <div class="col-md-3"></div> -->
+        </div>
     </form>
 </div>

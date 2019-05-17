@@ -57,16 +57,4 @@ div.content-register form {
   width: 80%;
 }
 
-div.content-adopt {
-  background: url("../img/bunnybg.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-div.content-adopt form {
-  width: 80%;
-}
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=main.scc.map */
